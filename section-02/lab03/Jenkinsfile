@@ -24,7 +24,7 @@ pipeline {
     stage("git-clone") {
       steps {
         echo "Git clone from gitlab repository"
-        git branch: 'dev', url: 'https://github.com/yoonjk/jenkins-handson.git'
+        git branch: 'dev', url: 'https://github.com/gkssk4163/jenkins-handson.git'
       }
     }
 
