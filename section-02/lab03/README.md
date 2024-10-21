@@ -14,3 +14,4 @@ kubectl create secret docker-registry docker-credentials \
 --docker-server=$REGISTRY_SERVER \
 --docker-email=$REGISTRY_EMAIL
 
+Readme.md 수정
